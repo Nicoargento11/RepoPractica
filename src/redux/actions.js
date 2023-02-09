@@ -12,12 +12,12 @@ export const getCharacters = () => {
   };
 };
 
-/* export const deleteCharacter = (id) => {
+ export const deleteCharacter = (id) => {
   return {
     type: DELETE_CHARACTER,
     payload: id,
   };
-}; */
+}; 
 
 export const createCharacter = (character) => {
   return {
